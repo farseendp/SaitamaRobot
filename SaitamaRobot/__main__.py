@@ -82,7 +82,7 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://telegra.ph/file/d259985c9e3c3ff016b56.jpg
+SAITAMA_IMG = "https://telegra.ph/file/01d5ec25c9982fb2b83d7.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 Saitama is hosted on one of Kaizoku's Servers and doesn't require any donations as of now but \
@@ -205,22 +205,22 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="☑️ Add Saitama to your group",
+                            text="☑️ Add 𝙆𝘼𝙍𝙈𝘼 to your group",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username))
                     ],
                      [
                          InlineKeyboardButton(
                              text="🚑 Support Group",
-                             url=f"https://t.me/{SUPPORT_CHAT}"),
-                         InlineKeyboardButton(
+                           
+                         
                              text="🔔 Updates Channel",
-                             url="https://t.me/OnePunchUpdates")
+                             url="https://https://t.me/joinchat/Tu5T3FKSateUWbKW")
                      ],
                      [
                          InlineKeyboardButton(
-                             text="🧾 Getting started guide",
-                             url="https://t.me/OnePunchUpdates/29")
+                             text="🧾 Fun",
+                             url="https://t.me/zyan_Farseen/62')
                      ],
                      [
                          InlineKeyboardButton(
