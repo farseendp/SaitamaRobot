@@ -53,18 +53,21 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 Hi {}, my name is {}! 
- ഗ്രൂപ്പിൽ കയറാൻ വരുന്നവർ ഗ്രൂപ്പിനെ പറ്റിയും റൂൾസ് നെ  പറ്റിയും അറിയണം... 😌എന്നാൽ ഗ്രൂപ്പ് ഭരിക്കാൻ വരുന്നവൻ അവൻ ആരാ എന്ന് ബാക്കി ഉള്ളവരെ  അറിയിക്കണം!!😈
+ I am a group management bot.
+add to your groups to see what i can do in your group.
+You can find my list of available commands with /help.
 
-നിങ്ങൾ ധൈര്യശലികൾ ആണോ😎  എന്നാൽ /help  ഇൽ തൊട്ട് നോക്കു!കമ്മാൻഡ്‌സ് ഒകെ വരുന്നത് കാണാം☠☠☠.
 
 
 
 
 HELP_STRINGS = """
 Hey there! My name is *{}*.
- ഗ്രൂപ്പിൽ കയറാൻ വരുന്നവർ ഗ്രൂപ്പിനെ പറ്റിയും റൂൾസ് നെ  പറ്റിയും അറിയണം... 😌എന്നാൽ ഗ്രൂപ്പ് ഭരിക്കാൻ വരുന്നവൻ അവൻ ആരാ എന്ന് ബാക്കി ഉള്ളവരെ  അറിയിക്കണം!!😈
+I am a group management bot.
+add to your groups to see what i can do in your group.
+You can find my list of available commands with /help.
 
-നിങ്ങൾ ധൈര്യശലികൾ ആണോ😎  എന്നാൽ /help  ഇൽ തൊട്ട് നോക്കു!കമ്മാൻഡ്‌സ് ഒകെ വരുന്നത് കാണാം☠☠☠.
+
 
 
 *Main* commands available:
@@ -205,14 +208,14 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="☑️ Add 𝙆𝘼𝙍𝙈𝘼 to your group",
+                            text="☑️ Add 𝘽𝙞𝙡𝙡𝙞𝙚 𝙀𝙞𝙡𝙞𝙨𝙝⃤ to your group",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username))
                     ],
                      [
                          InlineKeyboardButton(
-                             text="🚑 Support Group",
-                           
+                             text="Billie Eilish fans",
+                             url=https://https://t.me/joinchat/R1jFsUu6Bg6ar8_e")
                          
                              text="🔔 Updates Channel",
                              url="https://https://t.me/joinchat/Tu5T3FKSateUWbKW")
