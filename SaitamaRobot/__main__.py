@@ -53,9 +53,11 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 Hi {}, my name is {}! 
- I am a group management bot.
-add to your groups to see what i can do in your group.
-You can find my list of available commands with /help.
+ am a group management bot i can manage your group effectively.
+i have somany multimedia system and fun modules to make group  management fun.
+if you have any dout to use me strike❤️ /help.
+
+
 
 
 
@@ -85,7 +87,7 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://telegra.ph/file/92c3159d69342871d22fa.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/2d85e17f375e287e65902.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 Saitama is hosted on one of Kaizoku's Servers and doesn't require any donations as of now but \
@@ -208,13 +210,13 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="☑️ Add 𝘽𝙞𝙡𝙡𝙞𝙚 𝙀𝙞𝙡𝙞𝙨𝙝⃤ to your group",
+                            text="☑️ Add Me your group",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username))
                     ],
                      [
                          InlineKeyboardButton(
-                             text="Billie Eilish fans",
+                             text="Zayn",
                              url=https://https://t.me/joinchat/R1jFsUu6Bg6ar8_e")
                          
                              text="🔔 Updates Channel",
